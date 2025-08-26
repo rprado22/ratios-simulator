@@ -6,6 +6,6 @@ import react from '@vitejs/plugin-react'
 // set base to "/REPO/".  For user/org sites (https://USERNAME.github.io/),
 // use base: "/".
 export default defineConfig({
-  base: '/YOUR-REPO-NAME/', // e.g., '/ratios-simulator/'  ← change this
+  base: '/ratios-simulator/', // e.g., '/ratios-simulator/'  ← change this
   plugins: [react()],
 })
