@@ -174,3 +174,4 @@ function gcd(x: number, y: number): number {
     x = t
   }
   return x || 1
+}
