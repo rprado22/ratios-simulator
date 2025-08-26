@@ -33,12 +33,12 @@ transition={{ type: 'spring', duration: 0.6 }}
 <Tabs
 active={tab}
 onChange={setTab}
-tabs=[
+tabs={[
 { id: 'mixer', label: 'Mixer', es: 'Mezclador' },
 { id: 'tape', label: 'Tape Diagram', es: 'Diagrama de cinta' },
 { id: 'unit', label: 'Unit Rate', es: 'Tasa unitaria' },
 { id: 'table', label: 'Proportion Table', es: 'Tabla de proporción' },
-]
+]}
 />
 </div>
 </motion.div>
